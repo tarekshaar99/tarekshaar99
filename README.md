@@ -1,12 +1,18 @@
-# Being Tarek
+# Snake App
 
-A modern one-page starter layout for **beingtarek.com**.
+A browser-based Snake game built with plain HTML, CSS, and JavaScript.
 
-## What's included
-- `index.html`: semantic page structure with sections for hero, about, projects, and contact.
-- `style.css`: responsive styles, modern dark theme, reusable buttons/cards, and accessibility-focused interactions.
+## Features
+- Keyboard controls (Arrow keys + WASD)
+- Touch/click direction controls
+- Pause/resume with Space
+- Score, high score (saved in `localStorage`), and speed scaling
+- Responsive single-page layout
 
-## Customize quickly
-- Replace placeholder text and project details with your real content.
-- Update `mailto:` and social links in the contact section.
-- Tweak the colors in `:root` inside `style.css` to match your brand.
+## Run locally
+Open `index.html` in your browser.
+
+## Files
+- `index.html`: game UI and controls
+- `style.css`: layout + visual styling
+- `script.js`: Snake game logic and interactions
